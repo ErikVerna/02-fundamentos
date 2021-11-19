@@ -1,14 +1,13 @@
 import { useState } from "react";
 
-const Contador = () => {
-  const [contador, setContador] = useState(10);
+const Contador = ({ inicial, factor }) => {
+  const [contador, setContador] = useState(inicial);
 
   const aumentar = () => {
-    setContador((el) => el + 1);
+    setContador((el) => el + factor);
   };
-
   const disminuir = () => {
-    setContador((el) => el - 1);
+    setContador((el) => el - factor);
   };
 
   return (

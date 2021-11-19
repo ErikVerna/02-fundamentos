@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(37, 36, 36);
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 300px;
+  margin: 10px 70px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+  color: snow;
+}
+
+img {
+  width: 6rem;
+  padding: 5px;
+}
