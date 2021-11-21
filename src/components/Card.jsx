@@ -7,7 +7,7 @@ const Card = ({ lang, img, fcolor, scolor }) => {
     <div
       className="card"
       style={{
-        background: `linear-gradient(to right, ${fcolor}, ${scolor})`,
+        background: `linear-gradient(to left, ${fcolor}, ${scolor})`,
       }}
     >
       <img src={img} alt="lang.svg" />
